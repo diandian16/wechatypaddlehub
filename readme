@@ -1,0 +1,18 @@
+使用wechaty结合paddlehub的做法完成的微信机器人
+建立docker
+方法一：
+要建立docker，docker可以linux，可以macos，也可以win10，wsin10 https://docs.docker.com/docker-for-windows/install/ 这个地址下载安装
+方法二：
+建立云服务器，我这边建立了阿里云的免费云服务器。
+具体的操作推荐名为“细菌”的大神的文档
+https://aistudio.baidu.com/aistudio/projectdetail/1836012?channel=0&channelType=0&shared=1
+这里怎么建立阿里云，非常的详细
+建立好阿里云，我市在aistudio上运行的，
+建立的是脚本，而不是notebook，需要注意的
+然后将run.sh和run.py运行就好啦
+
+wechaty结合paddlehub的做法完成的微信机器人的功能
+功能一：输入“小仙女”或者“小队长”会出现相应的自动回复
+功能二：输入“周深”或者“费玉清”这样的，会自动给出一张图片
+功能三：输入“藏头诗：XXXX”会以XXXX为开头作诗
+功能四：输入一张人物照片，会给你回复这人物的卡通形象哦，个人觉得挺赞的
