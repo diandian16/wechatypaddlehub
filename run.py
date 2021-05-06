@@ -131,13 +131,13 @@ async def on_message(msg: Message):
     if msg.text() == 'ding':
         await msg.say('这是自动回复: dong dong dong')
         
-    if msg.text() == '王慧洁' or msg.text() == '小队长' :
+    if msg.text() == '小队长' :
         await msg.say('我好想你的！！快点好起来，上班来看我！！')
         
-    if msg.text() == '金敏' or msg.text() == '小仙女' :
+    if msg.text() == '小仙女' :
         await msg.say('宇宙超级无敌可爱美丽的人，303之光！')
     
-    if msg.text() == '小余' or msg.text() == '余菊珍' :
+    if msg.text() == '小余' :
         await msg.say('一直想要骗我钱的女人！但是我还是很爱她！')
 
     if msg.text() == 'hi' or msg.text() == '你好':
